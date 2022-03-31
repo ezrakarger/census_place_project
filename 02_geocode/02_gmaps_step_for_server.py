@@ -5,7 +5,7 @@ import numpy as np
 wd = '/disk/bulkw/karger/census_bulk/citylonglat/'
 os.chdir(wd)
 
-gmaps_df = pd.read_csv('data/geo_data/gmaps_offline.csv')
+gmaps_df = pd.read_csv('intermediate/gmaps_offline.csv')
 gmaps_df = gmaps_df.rename(columns={'lat': 'lat_gmaps', 'long': 'long_gmaps'})
 gmaps_df['match_gmaps'] = 'gmaps'
 for decade in np.arange(1790, 1950, 10):

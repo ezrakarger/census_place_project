@@ -116,118 +116,118 @@ def geotag_procedure(decade, census_file_path, county_file_path,
 
 
 # call the main function for the different decades
-#geotag_procedure(1790,
-#                 'intermediate/placecounts_1790.dta',
-#                 'shape_files/US_county_1790_conflated.shp',
-#                 '',
-#                 ['township'],
-#                 'fullstate',
-#                 'name',
-#                 'county',
-#                 'name')
-#
-#geotag_procedure(1800,
-#                 'intermediate/placecounts_1800.dta',
-#                 'shape_files/US_county_1800_conflated.shp',
-#                 '',
-#                 ['township'],
-#                 'fullstate',
-#                 'name',
-#                 'county',
-#                 'name')
-#
-#geotag_procedure(1810,
-#                 'intermediate/placecounts_1810.dta',
-#                 'shape_files/US_county_1810_conflated.shp',
-#                 '',
-#                 ['township'],
-#                 'fullstate',
-#                 'name',
-#                 'county',
-#                 'name')
-#
-#geotag_procedure(1820,
-#                 'intermediate/placecounts_1820.dta',
-#                 'shape_files/US_county_1820_conflated.shp',
-#                 '',
-#                 ['township'],
-#                 'fullstate',
-#                 'name',
-#                 'county',
-#                 'name')
-#
-#geotag_procedure(1830,
-#                 'intermediate/placecounts_1830.dta',
-#                 'shape_files/US_county_1830_conflated.shp',
-#                 '',
-#                 ['general_township_orig'],
-#                 'self_residence_place_state',
-#                 'name',
-#                 'self_residence_place_county',
-#                 'name')
-#
-#geotag_procedure(1840,
-#                 'intermediate/placecounts_1840.dta',
-#                 'shape_files/US_county_1840_conflated.shp',
-#                 '',
-#                 ['locality'],
-#                 'fullstate',
-#                 'name',
-#                 'county',
-#                 'name')
-#
-#geotag_procedure(1850,
-#                 'intermediate/placecounts_1850.dta',
-#                 'shape_files/US_county_1850_conflated.shp',
-#                 '',
-#                 ['stdcity', 'us1850c_0043', 'us1850c_0053', 'us1850c_0054', 'us1850c_0042'],
-#                 'stateicp',
-#                 'icp',
-#                 'stcounty',
-#                 'fips')
-#
-#geotag_procedure(1860,
-#                 'intermediate/placecounts_1860.dta',
-#                 'shape_files/US_county_1860_conflated.shp',
-#                 '',
-#                 ['us1860c_0040', 'us1860c_0042', 'us1860c_0036'],
-#                 'statefip',
-#                 'fips',
-#                 'countyicp',
-#                 'fips')
-#
-#geotag_procedure(1870,
-#                 'intermediate/placecounts_1870.dta',
-#                 'shape_files/US_county_1870_conflated.shp',
-#                 '',
-#                 ['us1870c_0040', 'us1870c_0042', 'us1870c_0043',
-#                 'us1870c_0044', 'us1870c_0035', 'us1870c_0036'],
-#                 'statefip',
-#                 'fips',
-#                 'countyicp',
-#                 'fips')
-#
-#geotag_procedure(1880,
-#                 'intermediate/placecounts_1880.dta',
-#                 'shape_files/US_county_1880_conflated.shp',
-#                 '',
-#                 ['mcdstr', 'us1880e_0071', 'us1880e_0069',
-#                 'us1880e_0072', 'us1880e_0070'],
-#                 'stateicp',
-#                 'icp',
-#                 'stcounty',
-#                 'fips')
-#
-#geotag_procedure(1900,
-#                 'intermediate/placecounts_1900.dta',
-#                 'shape_files/US_county_1900_conflated.shp',
-#                 'shape_files/US_place_point_1900.shp',
-#                 ['stdcity', 'us1900m_0045', 'us1900m_0052'],
-#                 'statefip',
-#                 'fips',
-#                 'stcounty',
-#                 'fips')
-#
+geotag_procedure(1790,
+                 'intermediate/placecounts_1790.dta',
+                 'shape_files/US_county_1790_conflated.shp',
+                 '',
+                 ['township'],
+                 'fullstate',
+                 'name',
+                 'county',
+                 'name')
+
+geotag_procedure(1800,
+                 'intermediate/placecounts_1800.dta',
+                 'shape_files/US_county_1800_conflated.shp',
+                 '',
+                 ['township'],
+                 'fullstate',
+                 'name',
+                 'county',
+                 'name')
+
+geotag_procedure(1810,
+                 'intermediate/placecounts_1810.dta',
+                 'shape_files/US_county_1810_conflated.shp',
+                 '',
+                 ['township'],
+                 'fullstate',
+                 'name',
+                 'county',
+                 'name')
+
+geotag_procedure(1820,
+                 'intermediate/placecounts_1820.dta',
+                 'shape_files/US_county_1820_conflated.shp',
+                 '',
+                 ['township'],
+                 'fullstate',
+                 'name',
+                 'county',
+                 'name')
+
+geotag_procedure(1830,
+                 'intermediate/placecounts_1830.dta',
+                 'shape_files/US_county_1830_conflated.shp',
+                 '',
+                 ['general_township_orig'],
+                 'self_residence_place_state',
+                 'name',
+                 'self_residence_place_county',
+                 'name')
+
+geotag_procedure(1840,
+                 'intermediate/placecounts_1840.dta',
+                 'shape_files/US_county_1840_conflated.shp',
+                 '',
+                 ['locality'],
+                 'fullstate',
+                 'name',
+                 'county',
+                 'name')
+
+geotag_procedure(1850,
+                 'intermediate/placecounts_1850.dta',
+                 'shape_files/US_county_1850_conflated.shp',
+                 '',
+                 ['stdcity', 'us1850c_0043', 'us1850c_0053', 'us1850c_0054', 'us1850c_0042'],
+                 'stateicp',
+                 'icp',
+                 'stcounty',
+                 'fips')
+
+geotag_procedure(1860,
+                 'intermediate/placecounts_1860.dta',
+                 'shape_files/US_county_1860_conflated.shp',
+                 '',
+                 ['us1860c_0040', 'us1860c_0042', 'us1860c_0036'],
+                 'statefip',
+                 'fips',
+                 'countyicp',
+                 'fips')
+
+geotag_procedure(1870,
+                 'intermediate/placecounts_1870.dta',
+                 'shape_files/US_county_1870_conflated.shp',
+                 '',
+                 ['us1870c_0040', 'us1870c_0042', 'us1870c_0043',
+                 'us1870c_0044', 'us1870c_0035', 'us1870c_0036'],
+                 'statefip',
+                 'fips',
+                 'countyicp',
+                 'fips')
+
+geotag_procedure(1880,
+                 'intermediate/placecounts_1880.dta',
+                 'shape_files/US_county_1880_conflated.shp',
+                 '',
+                 ['mcdstr', 'us1880e_0071', 'us1880e_0069',
+                 'us1880e_0072', 'us1880e_0070'],
+                 'stateicp',
+                 'icp',
+                 'stcounty',
+                 'fips')
+
+geotag_procedure(1900,
+                 'intermediate/placecounts_1900.dta',
+                 'shape_files/US_county_1900_conflated.shp',
+                 'shape_files/US_place_point_1900.shp',
+                 ['stdcity', 'us1900m_0045', 'us1900m_0052'],
+                 'statefip',
+                 'fips',
+                 'stcounty',
+                 'fips')
+
 geotag_procedure(1910,
                  'intermediate/placecounts_1910.dta',
                  'shape_files/US_county_1910_conflated.shp',

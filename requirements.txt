@@ -1,0 +1,24 @@
+Required Python packages:
+
+os
+re
+sys
+numpy
+shutil
+math
+sklearn
+fuzzywuzzy
+pandas
+numpy
+Levenshtein
+geopandas
+urllib
+time
+
+Required Stata packages:
+
+aaplot
+binsreg 
+geonear
+geoinpoly
+shp2dta 
