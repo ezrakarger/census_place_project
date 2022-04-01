@@ -257,15 +257,13 @@ Adds consistent state and county-IDs to each place based on modern US shapefiles
 Creates clusters of nearby places
 
 Process is as follows:
+
 Step 1: for every place, find all other places within 20 miles
-Step 2: label a pair of places within 20 miles as 'close neighbors' if they are within 3 miles OR
-*               the distance between the two places < X * 100 * (% of population in the sample)
-*       For example, Chicago has 2.5% of the people in the sample from 1790-1940,
-*           New York has 2%, Philadelphia has 1.8%, Boston has 0.7%, and Cambridge has 0.1%
-*       So Chicago will be close neighbors with any place within 7.5 miles (for x=3), and that number will be 6 miles for
-*           New York as well, 5.4 miles for Philadelphia, 2.1 miles for Boston, and 0.3 miles for Cambridge
-Step 3: Identify all connected components of pairs of places. These connected
-*           components are our consistent places across time
+
+Step 2: label a pair of places within 20 miles as 'close neighbors' if they are within 3 miles OR the distance between the two places < X * 100 x (% of population in the sample). For example, Chicago has 2.5% of the people in the sample from 1790-1940, New York has 2%, Philadelphia has 1.8%, Boston has 0.7%, and Cambridge has 0.1%. So Chicago will be close neighbors with any place within 7.5 miles (for x=3), and that number will be 6 miles for New York as well, 5.4 miles for Philadelphia, 2.1 miles for Boston, and 0.3 miles for Cambridge
+
+Step 3: Identify all connected components of pairs of places. These connected components are our consistent places across time
+
 Step 4: output a long/lat -> connected component crosswalk for use across all years
 
 
